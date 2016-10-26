@@ -11,7 +11,7 @@ public class WeatherAppSample {
 		String cityIdOfBudapestXIII = "7284830";
 		
 		WeatherInfoProvider wip = new WeatherInfoProvider("7284825");
-		WeatherResponse wr = wip.getCurrentInfos();
+		WeatherResponse wr = wip.getCurrentWeather();
 		
 		System.out.println(wr);
 		
