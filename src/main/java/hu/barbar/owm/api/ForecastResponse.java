@@ -132,7 +132,7 @@ public class ForecastResponse {
 		private List<Weather> weather;
 		private Clouds clouds;
 		private Wind wind;
-		private Rain Rain;
+		private Rain rain;
 		private Sys sys;
 		private String dt_txt;
 		
@@ -147,7 +147,7 @@ public class ForecastResponse {
 					"WeatherList: " + weatherListStr +
 					"clouds: " + clouds + "\n" +
 					"wind: " + wind + "\n" +
-					"Rain: " + Rain + "\n" +
+					"Rain: " + rain + "\n" +
 					"sys: " + sys + "\n" +
 					"dt_txt: " + dt_txt + "\n";
 		}
