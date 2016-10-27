@@ -30,6 +30,11 @@ public class WeatherResponse {
 	public long getDt() {
 		return dt;
 	}
+	
+	public String getDtFormatted(){
+		SimpleDateFormat formatter = new SimpleDateFormat(Config.DATE_FORMAT);
+		return formatter.format(new Date(dt * 1000));
+	}
 
 	public String getName() {
 		return name;
