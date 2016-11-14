@@ -5,8 +5,6 @@ import com.google.gson.GsonBuilder;
 
 /**
  * Object to get current weather details and forecasts 
- * 
- * @author Andras Boor
  */
 public class WeatherInfoProvider {
 

@@ -10,7 +10,7 @@ import java.net.URLConnection;
 class Request {
 
     private static final String APP_ID = "cef62a4aa44dbbdb924305751c12817d";
-	//private static final String APP_ID = "3c0b2d6a440f29ca0349a4ebbccc6ee4"; //own key (not woirking -401)
+	//private static final String APP_ID = "3c0b2d6a440f29ca0349a4ebbccc6ee4"; //own key (not working -401)
     private static final String WEATHER_URL =  "http://api.openweathermap.org/data/2.5/weather?units=metric&APPID=" + APP_ID + "&id=";
     private static final String FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast?units=metric&APPID=" + APP_ID + "&id=";
 
